@@ -22,7 +22,7 @@ export const SvgBell = () => {
         <motion.path
         variants={{
             animate: {
-                x:[0,5,0,-5,0,5],
+                x:[0,3,0,-3,0,3,0,-3,0],
                 transition: {
                     duration: 0.4,
                    ease: "easeInOut",
@@ -34,7 +34,7 @@ export const SvgBell = () => {
             animate: {
                    
                 
-                rotate:[0,-5,0,5,0],    
+                rotate:[0,-5,0,5,0,-5,0,5,0],    
                  
                 transition: {
                     duration: 0.4,
