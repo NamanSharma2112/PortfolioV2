@@ -10,7 +10,7 @@ import FileSvg from "./components/file_Svg";
 
 export default function Home() {
   return (
-    <div className="h-screen max-w-4xl mx-auto flex flex-col items-center justify-center gap-10">
+    <div className="h-screen max-w-4xl mx-auto flex flex-col items-center justify-center gap-10 bg-neutral-100">
 <FileSvg />
 
     </div>
