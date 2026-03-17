@@ -8,11 +8,12 @@ import { ModeToggle } from "./components/mode-toggle";
 import SvgCompoent from "./components/svg-compoent";
 import FileSvg from "./components/file_Svg";
 import Hover from "./components/hover"
+import Card from "./components/cards"
 export default function Home() {
   return (
-    <div className="h-screen max-w-4xl mx-auto flex flex-col items-center justify-center gap-10 bg-neutral-100">
-<Hover/>
+    <div className="h-screen w-full flex items-center justify-center bg-neutral-100">
 
+     <Card/>
     </div>
   );
 }
