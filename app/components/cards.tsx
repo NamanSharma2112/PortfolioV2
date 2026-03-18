@@ -78,8 +78,7 @@ const Cards = () => {
           }}
         >
           {card.skeleton}
-          <h3 className="text-xl font-bold mb-4 text-gray-900">{card.title}</h3>
-          <p className="text-gray-700 leading-relaxed">{card.description}</p>
+         
         </div>
       ))}
     </div>
